@@ -1,0 +1,125 @@
+:root{
+    --ff1: 'Raleway', sans-serif;
+    --ff2: 'Open Sans', sans-serif;
+    --ff3: 'Cardo', serif;
+    --brand: #e84545;
+    --cl-p: #6c7279;
+    --cl-dark: #2d3033;
+    --bg-test: #53354a;
+    --bg-ft1: #3a3e64;
+    --bg-ft2: #313454;
+    --over-red: rgba(232, 69, 69, 0.9);
+    --over-ban: rgba(43, 46, 74, 0.95);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+
+ul{
+    list-style: none
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*======================
+  common css ends
+========================*/
+.rale-reg{
+    font-family: var(--ff1);
+    font-weight: 400;
+}
+.rale-mid{
+    font-family: var(--ff1);
+    font-weight: 500;
+}
+.rale-semi{
+    font-family: var(--ff1);
+    font-weight: 600;
+}
+.rale-bold{
+    font-family: var(--ff1);
+    font-weight: 700;
+}
+.open-reg{
+    font-family: var(--ff2);
+    font-weight: 400;
+}
+.open-bold{
+    font-family: var(--ff2);
+    font-weight: 700;
+}
+.cardo{
+    font-family: var(--ff3);
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*======================
+    fonts css ends
+========================*/
+.fs-13{
+    font-size: 13px;
+}
+.fs-65{
+    font-size: 65px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-36{
+    font-size: 36px;
+}
+.fs-28{
+    font-size: 28px;
+}
+
+/*======================
+    font size css ends
+========================*/
+.text-up{
+    text-transform: uppercase;
+}
+.text-cap{
+    text-transform: capitalize;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/*======================
+   Typography css ends
+========================*/
+.bg-brand{
+    color:var(--brand)
+}
+.brand{
+    color: var(--brand);
+}
+.dark{
+    color: var(--cl-dark);
+}
+.white{
+    color: #fff;
+}
+.detail{
+    color: var(--cl-p);
+}
+/*======================
+   Helper css ends
+========================*/
+
